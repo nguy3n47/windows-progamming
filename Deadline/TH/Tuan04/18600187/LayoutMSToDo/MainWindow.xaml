@@ -1,0 +1,363 @@
+﻿<Window x:Class="LayoutMSToDo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LayoutMSToDo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="640" Width="1280" Icon="Icons/Microsoft_To-Do_icon.png" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*"></ColumnDefinition>
+            <ColumnDefinition Width="12*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Border BorderBrush="Gray" BorderThickness="0,0,0,1" Background="White"></Border>
+                <Image Source="Icons/icons8-male-user-32.png" HorizontalAlignment="Left" Margin="5" RenderOptions.BitmapScalingMode="HighQuality"/>
+                <TextBlock Text="Jett" TextAlignment="Center" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="35,0,0,0" Foreground="Gray"/>
+                <Image Source="Icons/icons8-search-32.png" HorizontalAlignment="Right" Margin="0,8,15,8" RenderOptions.BitmapScalingMode="HighQuality"/>
+            </Grid>
+            <Grid Grid.Row="1" Margin="0">
+                <Image Source="Icons/icons8-sun-32.png" HorizontalAlignment="Left" Margin="5" RenderOptions.BitmapScalingMode="HighQuality"/>
+                <TextBlock Text="My Day" TextAlignment="Center" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="35,0,0,0" Foreground="Gray"/>
+                <TextBlock Text="3" TextAlignment="Center" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,15,0" Foreground="Gray"/>
+            </Grid>
+            <Grid Grid.Row="2" Margin="0">
+                <Image Source="Icons/icons8-smart-home-checked-32.png" HorizontalAlignment="Left" Margin="9" RenderOptions.BitmapScalingMode="HighQuality"/>
+                <TextBlock Text="To-Do" TextAlignment="Center" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="35,0,0,0" Foreground="Gray"/>
+                <TextBlock Text="9" TextAlignment="Center" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,15,0" Foreground="Gray"/>
+            </Grid>
+            <Grid Grid.Row="3" Margin="0">
+                <Image Source="Icons/icons8-list-32.png" HorizontalAlignment="Left" Margin="9" RenderOptions.BitmapScalingMode="HighQuality"/>
+                <TextBlock Text="Work" TextAlignment="Center" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="35,0,0,0" Foreground="Gray"/>
+            </Grid>
+            <Grid Grid.Row="4" Margin="0">
+                <Image Source="Icons/icons8-list-32.png" HorizontalAlignment="Left" Margin="9" RenderOptions.BitmapScalingMode="HighQuality"/>
+                <TextBlock Text="Poll ideas" TextAlignment="Center" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="35,0,0,0" Foreground="Gray"/>
+            </Grid>
+            <Grid Grid.Row="5" Margin="0">
+                <Image Source="Icons/icons8-list-32.png" HorizontalAlignment="Left" Margin="9" RenderOptions.BitmapScalingMode="HighQuality"/>
+                <TextBlock Text="Techinch" TextAlignment="Center" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="35,0,0,0" Foreground="Gray"/>
+                <TextBlock Text="1" TextAlignment="Center" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,15,0" Foreground="Gray"/>
+            </Grid>
+            <Grid Grid.Row="6" Margin="0">
+                <Image Source="Icons/icons8-list-32.png" HorizontalAlignment="Left" Margin="9" RenderOptions.BitmapScalingMode="HighQuality"/>
+                <TextBlock Text="A little, important list" TextAlignment="Center" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="35,0,0,0" Foreground="Gray"/>
+                <TextBlock Text="2" TextAlignment="Center" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,15,0" Foreground="Gray"/>
+            </Grid>
+            <Grid Grid.Row="7" Margin="0">
+                <Image Source="Icons/icons8-list-32.png" HorizontalAlignment="Left" Margin="9" RenderOptions.BitmapScalingMode="HighQuality"/>
+                <TextBlock Text="New List" TextAlignment="Center" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="35,0,0,0" Foreground="Gray"/>
+            </Grid>
+            <Grid Grid.Row="8" Margin="0">
+                <Image Source="Icons/icons8-list-32.png" HorizontalAlignment="Left" Margin="9" RenderOptions.BitmapScalingMode="HighQuality"/>
+                <TextBlock Text="Q2 Redesign" TextAlignment="Center" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="35,0,0,0" Foreground="Gray"/>
+                <TextBlock Text="10" TextAlignment="Center" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,15,0" Foreground="Gray"/>
+            </Grid>
+            <Grid Grid.Row="9" Margin="0">
+                <Image Source="Icons/icons8-list-32.png" HorizontalAlignment="Left" Margin="9" RenderOptions.BitmapScalingMode="HighQuality"/>
+                <TextBlock Text="Zapbook" TextAlignment="Center" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="35,0,0,0" Foreground="Gray"/>
+                <TextBlock Text="2" TextAlignment="Center" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,15,0" Foreground="Gray"/>
+            </Grid>
+            <Grid Grid.Row="10" Margin="0">
+                <Image Source="Icons/icons8-plus-math-32.png" HorizontalAlignment="Left" Margin="8" RenderOptions.BitmapScalingMode="HighQuality"/>
+                <TextBlock Text="New list" TextAlignment="Center" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="35,0,0,0" Foreground="#3e69e4"/>
+                <Image Source="Icons/create-group.png" HorizontalAlignment="Right" Margin="0,0,5,0" RenderOptions.BitmapScalingMode="HighQuality"/>
+            </Grid>
+        </Grid>
+        <Grid Column="1">
+            <Grid.Background>
+                <ImageBrush ImageSource="Images/Valorant.jpg" Stretch="UniformToFill" RenderOptions.BitmapScalingMode="HighQuality"/>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"></RowDefinition>
+                <RowDefinition Height="91.2"></RowDefinition>
+                <RowDefinition Height="3*"></RowDefinition>
+                <RowDefinition Height="1.6*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0" Margin="0">
+                <TextBlock Text="Suggestions" TextAlignment="Center" FontSize="50" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="30,0,0,-30" Foreground="White"/>
+                <TextBlock Text="Friday, April 21" TextAlignment="Center" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="30,0,0,-120" Foreground="White"/>
+                <Button Content="Done" Height="32" Width="64" Margin="0,0,30,-120" HorizontalAlignment="Right" Background="#FF0078D4" Foreground="White" FontSize="18"></Button>
+            </Grid>
+            <Grid Grid.Row="1" Margin="25,10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="31.2"></RowDefinition>
+                    <RowDefinition Height="1*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Border Background="White" CornerRadius="10" Grid.RowSpan="2"></Border>
+                <Grid Grid.Row="0">
+                    <TextBlock Text="Upcoming" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="18" Margin="10,0,0,0"></TextBlock>
+                    <TextBlock Text="1 DUE TODAY" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="13" Margin="0,0,50,0" Foreground="#FF666666"></TextBlock>
+                    <Image Source="Icons/icons8-collapse-arrow-32.png" HorizontalAlignment="Right" Margin="0,10,30,10" RenderOptions.BitmapScalingMode="HighQuality"/>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="10*"></ColumnDefinition>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Border Height="16" Width="16" CornerRadius="8" BorderThickness="1" BorderBrush="#FF666666" Margin="0,0,0,0" VerticalAlignment="Center"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"></RowDefinition>
+                            <RowDefinition Height="1*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <TextBlock Text="Conduct user interviews" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="11" Foreground="#FF666666"></TextBlock>
+                        </Grid>
+                        <Grid Grid.Row="1">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Q2 Redesign" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" Foreground="#FF666666"></TextBlock>
+                                <TextBlock Text=" • " HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" Foreground="#FF666666"></TextBlock>
+                                <Image Source="Icons/icons8-calendar-100.png" RenderOptions.BitmapScalingMode="HighQuality" Width="16" Height="16" VerticalAlignment="Top" HorizontalAlignment="Left"></Image>
+                                <TextBlock Text=" Today" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" Foreground="#3498DB"></TextBlock>
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+                    <Grid Grid.Column="2">
+                        <Image Source="Icons/icons8-add-32.png" Margin="26,0,23,5" RenderOptions.BitmapScalingMode="HighQuality" VerticalAlignment="Center"/>
+                    </Grid>
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="2" Margin="25,10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="31.2"></RowDefinition>
+                    <RowDefinition Height="1*"></RowDefinition>
+                    <RowDefinition Height="1*"></RowDefinition>
+                    <RowDefinition Height="1*"></RowDefinition>
+                    <RowDefinition Height="1*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Border Background="White" CornerRadius="10" Grid.RowSpan="5"></Border>
+                <Grid Grid.Row="0">
+                        <TextBlock Text="Overdue" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="18" Margin="10,0,0,0">
+                        </TextBlock>
+                        <TextBlock Text="4 OVERDUE" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="13" Margin="0,0,50,0" Foreground="#FF666666"></TextBlock>
+                    <Image Source="Icons/icons8-collapse-arrow-32.png" HorizontalAlignment="Right" Margin="0,10,30,10" RenderOptions.BitmapScalingMode="HighQuality"/>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="10*"></ColumnDefinition>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Border BorderThickness="0,0,0,1" BorderBrush="#FF666666" Grid.ColumnSpan="3"></Border>
+                    <Grid Grid.Column="0">
+                        <Border Height="16" Width="16" CornerRadius="8" BorderThickness="1" BorderBrush="#FF666666" Margin="0,0,0,0" VerticalAlignment="Center"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"></RowDefinition>
+                            <RowDefinition Height="1*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <TextBlock Text="List redesign goals" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="11" Foreground="#FF666666"></TextBlock>
+                        </Grid>
+                        <Grid Grid.Row="1">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Q2 Redesign" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" Foreground="#FF666666"></TextBlock>
+                                <TextBlock Text=" • " HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" Foreground="#FF666666"></TextBlock>
+                                <Image Source="Icons/icons8-calendar-100-red.png" RenderOptions.BitmapScalingMode="HighQuality" Width="16" Height="16" VerticalAlignment="Top" HorizontalAlignment="Left"></Image>
+                                <TextBlock Text=" Yesterday" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" Foreground="#E74C3C"></TextBlock>
+                                <TextBlock Text=" • " HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" Foreground="#FF666666"></TextBlock>
+                                <Image Source="Icons/icons8-alarm-clock-64.png" RenderOptions.BitmapScalingMode="HighQuality" Width="16" Height="16" VerticalAlignment="Top" HorizontalAlignment="Left"></Image>
+                                <TextBlock Text=" Today" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" Foreground="#666666"></TextBlock>
+                                <TextBlock Text=" • " HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" Foreground="#FF666666"></TextBlock>
+                                <Image Source="Icons/icons8-list-view-64.png" RenderOptions.BitmapScalingMode="HighQuality" Width="16" Height="16" VerticalAlignment="Top" HorizontalAlignment="Left"></Image>
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+                    <Grid Grid.Column="2">
+                        <Image Source="Icons/icons8-add-32.png" Margin="26,0,23,5" RenderOptions.BitmapScalingMode="HighQuality" VerticalAlignment="Center"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="10*"></ColumnDefinition>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Border BorderThickness="0,0,0,1" BorderBrush="#FF666666" Grid.ColumnSpan="3"></Border>
+                    <Grid Grid.Column="0">
+                        <Border Height="16" Width="16" CornerRadius="8" BorderThickness="1" BorderBrush="#FF666666" Margin="0,0,0,0" VerticalAlignment="Center"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"></RowDefinition>
+                            <RowDefinition Height="1*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <TextBlock Text="Do other things" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="11" Foreground="#FF666666"></TextBlock>
+                        </Grid>
+                        <Grid Grid.Row="1">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="To-Do" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" Foreground="#FF666666"></TextBlock>
+                                <TextBlock Text=" • " HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" Foreground="#FF666666"></TextBlock>
+                                <Image Source="Icons/icons8-calendar-100-red.png" RenderOptions.BitmapScalingMode="HighQuality" Width="16" Height="16" VerticalAlignment="Top" HorizontalAlignment="Left"></Image>
+                                <TextBlock Text=" Thu, February 11, 2016" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" Foreground="#E74C3C"></TextBlock>
+                                <TextBlock Text=" • " HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" Foreground="#FF666666"></TextBlock>
+                                <Image Source="Icons/icons8-alarm-clock-64.png" RenderOptions.BitmapScalingMode="HighQuality" Width="16" Height="16" VerticalAlignment="Top" HorizontalAlignment="Left"></Image>
+                                <TextBlock Text=" Wed, February 10, 2016" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" Foreground="#666666"></TextBlock>
+                                <TextBlock Text=" • " HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" Foreground="#FF666666"></TextBlock>
+                                <Image Source="Icons/icons8-list-view-64.png" RenderOptions.BitmapScalingMode="HighQuality" Width="16" Height="16" VerticalAlignment="Top" HorizontalAlignment="Left"></Image>
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+                    <Grid Grid.Column="2">
+                        <Image Source="Icons/icons8-add-32.png" Margin="26,0,23,5" RenderOptions.BitmapScalingMode="HighQuality" VerticalAlignment="Center"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="10*"></ColumnDefinition>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Border BorderThickness="0,0,0,1" BorderBrush="#FF666666" Grid.ColumnSpan="3"></Border>
+                    <Grid Grid.Column="0">
+                        <Border Height="16" Width="16" CornerRadius="8" BorderThickness="1" BorderBrush="#FF666666" Margin="0,0,0,0" VerticalAlignment="Center"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"></RowDefinition>
+                            <RowDefinition Height="1*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <TextBlock Text="Try out new Wunderlist features" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="11" Foreground="#FF666666"></TextBlock>
+                        </Grid>
+                        <Grid Grid.Row="1">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="To-Do" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" Foreground="#FF666666"></TextBlock>
+                                <TextBlock Text=" • " HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" Foreground="#FF666666"></TextBlock>
+                                <Image Source="Icons/icons8-calendar-100-red.png" RenderOptions.BitmapScalingMode="HighQuality" Width="16" Height="16" VerticalAlignment="Top" HorizontalAlignment="Left"></Image>
+                                <TextBlock Text=" Mon, April 20, 2015" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" Foreground="#E74C3C"></TextBlock>
+                                <TextBlock Text=" • " HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" Foreground="#FF666666"></TextBlock>
+                                <Image Source="Icons/icons8-list-view-64.png" RenderOptions.BitmapScalingMode="HighQuality" Width="16" Height="16" VerticalAlignment="Top" HorizontalAlignment="Left"></Image>
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+                    <Grid Grid.Column="2">
+                        <Image Source="Icons/icons8-add-32.png" Margin="26,0,23,5" RenderOptions.BitmapScalingMode="HighQuality" VerticalAlignment="Center"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="10*"></ColumnDefinition>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Border Height="16" Width="16" CornerRadius="8" BorderThickness="1" BorderBrush="#FF666666" Margin="0,0,0,0" VerticalAlignment="Center"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"></RowDefinition>
+                            <RowDefinition Height="1*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <TextBlock Text="Review Nokia Lumia" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="11" Foreground="#FF666666"></TextBlock>
+                        </Grid>
+                        <Grid Grid.Row="1">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="To-Do" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" Foreground="#FF666666"></TextBlock>
+                                <TextBlock Text=" • " HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" Foreground="#FF666666"></TextBlock>
+                                <Image Source="Icons/icons8-calendar-100-red.png" RenderOptions.BitmapScalingMode="HighQuality" Width="16" Height="16" VerticalAlignment="Top" HorizontalAlignment="Left"></Image>
+                                <TextBlock Text=" Sun, June 9, 2013" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" Foreground="#E74C3C"></TextBlock>
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+                    <Grid Grid.Column="2">
+                        <Image Source="Icons/icons8-add-32.png" Margin="26,0,23,5" RenderOptions.BitmapScalingMode="HighQuality" VerticalAlignment="Center"/>
+                    </Grid>
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="3" Margin="25,10,25,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="31.2"></RowDefinition>
+                    <RowDefinition Height="1*"></RowDefinition>
+                    <RowDefinition Height="1*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Border Background="White" CornerRadius="10" Grid.RowSpan="3"></Border>
+                <Grid Grid.Row="0">
+                    <TextBlock Text="Suggested for you" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="18" Margin="10,0,0,0">
+                    </TextBlock>
+                    <TextBlock Text="TASKS" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="13" Margin="0,0,50,0" Foreground="#FF666666"></TextBlock>
+                    <Image Source="Icons/icons8-collapse-arrow-32.png" HorizontalAlignment="Right" Margin="0,10,30,10" RenderOptions.BitmapScalingMode="HighQuality"/>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="10*"></ColumnDefinition>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Border BorderThickness="0,0,0,1" BorderBrush="#FF666666" Grid.ColumnSpan="3"></Border>
+                    <Grid Grid.Column="0">
+                        <Border Height="16" Width="16" CornerRadius="8" BorderThickness="1" BorderBrush="#FF666666" Margin="0,0,0,0" VerticalAlignment="Center"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"></RowDefinition>
+                            <RowDefinition Height="1*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <TextBlock Text="Buy milk" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="11" Foreground="#FF666666"></TextBlock>
+                        </Grid>
+                        <Grid Grid.Row="1">
+                            <TextBlock Text="To-Do" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" Foreground="#FF666666"></TextBlock>
+                        </Grid>
+                    </Grid>
+                    <Grid Grid.Column="2">
+                        <Image Source="Icons/icons8-add-32.png" Margin="26,0,23,5" RenderOptions.BitmapScalingMode="HighQuality" VerticalAlignment="Center"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                        <ColumnDefinition Width="10*"></ColumnDefinition>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Border Height="16" Width="16" CornerRadius="8" BorderThickness="1" BorderBrush="#FF666666" Margin="0,0,0,0" VerticalAlignment="Center"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"></RowDefinition>
+                            <RowDefinition Height="1*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <TextBlock Text="Get car washed" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="11" Foreground="#FF666666"></TextBlock>
+                        </Grid>
+                        <Grid Grid.Row="1">
+                            <TextBlock Text="To-Do" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="11" Foreground="#FF666666"></TextBlock>
+                        </Grid>
+                    </Grid>
+                    <Grid Grid.Column="2">
+                        <Image Source="Icons/icons8-add-32.png" Margin="26,0,23,5" RenderOptions.BitmapScalingMode="HighQuality" VerticalAlignment="Center"/>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

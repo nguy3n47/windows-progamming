@@ -1,0 +1,10 @@
+﻿<Application x:Class="MyStaff.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:MyStaff"
+             StartupUri="MainWindow.xaml"
+             xmlns:my="clr-namespace:MyStaff">
+    <Application.Resources>
+        <my:ImagePatchRelativeToAbsoluteConverter x:Key="imagePathConverter"/>
+    </Application.Resources>
+</Application>

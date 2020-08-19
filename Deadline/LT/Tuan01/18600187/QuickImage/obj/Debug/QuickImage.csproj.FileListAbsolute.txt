@@ -1,0 +1,15 @@
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\QuickImage\bin\Debug\QuickImage.exe.config
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\QuickImage\bin\Debug\QuickImage.exe
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\QuickImage\bin\Debug\QuickImage.pdb
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\QuickImage\obj\Debug\QuickImage.csprojAssemblyReference.cache
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\QuickImage\obj\Debug\MainWindow.g.cs
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\QuickImage\obj\Debug\App.g.cs
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\QuickImage\obj\Debug\QuickImage_MarkupCompile.cache
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\QuickImage\obj\Debug\QuickImage_MarkupCompile.lref
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\QuickImage\obj\Debug\MainWindow.baml
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\QuickImage\obj\Debug\QuickImage.g.resources
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\QuickImage\obj\Debug\QuickImage.Properties.Resources.resources
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\QuickImage\obj\Debug\QuickImage.csproj.GenerateResource.cache
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\QuickImage\obj\Debug\QuickImage.csproj.CoreCompileInputs.cache
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\QuickImage\obj\Debug\QuickImage.exe
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\QuickImage\obj\Debug\QuickImage.pdb

@@ -1,0 +1,39 @@
+﻿<Window x:Class="Dialog.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dialog"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize">
+    <DockPanel>
+        <Grid Name="Dialog">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Name="Keo" Width="1*"></ColumnDefinition>
+                <ColumnDefinition Name="Bua" Width="1*"></ColumnDefinition>
+                <ColumnDefinition Name="Bao" Width="1*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Button Name="keo" Click="keo_Click">
+                    <StackPanel>
+                        <Image Name="imgKeo" Source="Images/keo.png"/>
+                    </StackPanel>
+                </Button>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Button Name="bua" Click="bua_Click">
+                    <StackPanel>
+                        <Image Name="imgBua" Source="Images/bua.png"/>
+                    </StackPanel>
+                </Button>
+            </Grid>
+            <Grid Grid.Column="2">
+                <Button Name="bao" Click="bao_Click">
+                    <StackPanel>
+                        <Image Name="imgBao" Source="Images/bao.png"/>
+                    </StackPanel>
+                </Button>
+            </Grid>
+        </Grid>
+    </DockPanel>
+</Window>

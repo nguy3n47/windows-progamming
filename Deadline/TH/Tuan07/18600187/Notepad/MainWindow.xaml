@@ -1,0 +1,72 @@
+﻿<Window x:Class="Notepad.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Notepad"
+        mc:Ignorable="d"
+        Title="Notepad" Height="450" Width="800">
+    <Window.CommandBindings>
+        <CommandBinding Command="New" CanExecute="CommandBinding_CanExecute"/>
+        <CommandBinding Command="local:CustomCommands.NewWindows" CanExecute="CommandBinding_CanExecute_1"/>
+        <CommandBinding Command="local:CustomCommands.GoTo" CanExecute="GoTo_CanExecute"/>
+        <CommandBinding Command="local:CustomCommands.SelectAll" CanExecute="SlectAll_CanExecute"/>
+        <CommandBinding Command="local:CustomCommands.TimeDate" CanExecute="TimeDate_CanExecute"/>
+        <CommandBinding Command="local:CustomCommands.FindNext" CanExecute="FindNext_CanExecute"/>
+        <CommandBinding Command="Open" CanExecute="Open_CanExecute"/>
+        <CommandBinding Command="Save" CanExecute="Save_CanExecute"/>
+        <CommandBinding Command="Print" CanExecute="Print_CanExecute"/>
+        <CommandBinding Command="Undo" CanExecute="Undo_CanExecute"/>
+        <CommandBinding Command="Paste" CanExecute="Paste"/>
+        <CommandBinding Command="Replace" CanExecute="Replace"/>
+    </Window.CommandBindings>
+    <DockPanel LastChildFill="True">
+        <Menu Height="25" DockPanel.Dock="Top" Background="White" >
+            <MenuItem Header="_File" >
+                <MenuItem Header="New" Command="New"></MenuItem>
+                <MenuItem Header="New Windows       " Command="local:CustomCommands.NewWindows"/>
+                <MenuItem Header="Open" Command="Open"/>
+                <MenuItem Header="Save" Command="Save"/>
+                <MenuItem Header="Save As..." />
+                <Separator/>
+                <MenuItem Header="Page Setup..."/>
+                <MenuItem Header="Print..." Command="Print"/>
+                <Separator/>
+                <MenuItem Header="Exit"/>
+            </MenuItem>
+            <MenuItem Header="_Edit">
+                <MenuItem Header="Undo" Command="Undo"></MenuItem>
+                <Separator/>
+                <MenuItem Header="Cut" Command="Cut"/>
+                <MenuItem Header="Copy" Command="Copy"/>
+                <MenuItem Header="Paste" Command="Paste"/>
+                <MenuItem Header="Delete" Command="Delete" />
+                <Separator/>
+                <MenuItem Header="Find" Command="Find"/>
+                <MenuItem Header="Find Next     " Command="local:CustomCommands.FindNext"/>
+                <MenuItem Header="Replace..." Command="Replace"/>
+                <MenuItem Header="Go To..." Command="local:CustomCommands.GoTo"/>
+                <Separator/>
+                <MenuItem Header="Select All" Command="local:CustomCommands.SelectAll"/>
+                <MenuItem Header="Time/Date" Command="local:CustomCommands.TimeDate"/>
+            </MenuItem>
+            <MenuItem Header="F_ormat">
+                <MenuItem Header="Word Wrap"/>
+                <MenuItem Header="Font..."/>
+            </MenuItem>
+            <MenuItem Header="_View">
+                <MenuItem Header="Status Bar"/>
+            </MenuItem>
+            <MenuItem Header="_Help">
+                <MenuItem Header="View Help"/>
+                <Separator/>
+                <MenuItem Header="About Notepad"/>
+            </MenuItem>
+        </Menu>
+        <ScrollBar Width="20" DockPanel.Dock="Right" HorizontalAlignment="Right" />
+        <ScrollBar  Height="20" DockPanel.Dock="Bottom" Width="Auto" VerticalAlignment="Bottom" />
+        <Grid>
+            <TextBox TextWrapping="Wrap"/>
+        </Grid>
+    </DockPanel>
+</Window>

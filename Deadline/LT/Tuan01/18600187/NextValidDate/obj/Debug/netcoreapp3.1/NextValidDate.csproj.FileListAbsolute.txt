@@ -1,0 +1,13 @@
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\NextValidDate\bin\Debug\netcoreapp3.1\NextValidDate.exe
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\NextValidDate\bin\Debug\netcoreapp3.1\NextValidDate.deps.json
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\NextValidDate\bin\Debug\netcoreapp3.1\NextValidDate.runtimeconfig.json
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\NextValidDate\bin\Debug\netcoreapp3.1\NextValidDate.runtimeconfig.dev.json
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\NextValidDate\bin\Debug\netcoreapp3.1\NextValidDate.dll
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\NextValidDate\bin\Debug\netcoreapp3.1\NextValidDate.pdb
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\NextValidDate\obj\Debug\netcoreapp3.1\NextValidDate.csprojAssemblyReference.cache
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\NextValidDate\obj\Debug\netcoreapp3.1\NextValidDate.csproj.CoreCompileInputs.cache
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\NextValidDate\obj\Debug\netcoreapp3.1\NextValidDate.AssemblyInfoInputs.cache
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\NextValidDate\obj\Debug\netcoreapp3.1\NextValidDate.AssemblyInfo.cs
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\NextValidDate\obj\Debug\netcoreapp3.1\NextValidDate.dll
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\NextValidDate\obj\Debug\netcoreapp3.1\NextValidDate.pdb
+D:\FIT-HCMUS\Courses\LTWINDOWS\18CK2@\Deadline\LT\Tuan01\18600187\NextValidDate\obj\Debug\netcoreapp3.1\NextValidDate.genruntimeconfig.cache

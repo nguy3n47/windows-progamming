@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FakeData</name>
+    </assembly>
+    <members>
+        <member name="T:FakeData.FakeNameStore">
+            <summary>
+            Lớp FackeNameStore dùng để lưu trữ 10 phần tử họ, tên lót và tên + thực hiện chức năng tạo ra ngẫu nhiên 1 họ và tên đầy đủ
+            </summary>
+        </member>
+        <member name="M:FakeData.FakeNameStore.generator">
+            <summary>
+            Hàm tạo ngẫu nhiên 1 họ và tên đầy đủ
+            </summary>
+            <returns>
+            Chuỗi họ và tên
+            </returns>
+        </member>
+        <member name="T:FakeData.FakeTelStore">
+            <summary>
+            Lớp FakeTelStore dùng để lưu trữ 10 phần tử đầu số điện thoại + thực hiên chức năng tạo ngẫu nhiên 1 số điện thoại bao gồm 10 số
+            </summary>
+        </member>
+        <member name="M:FakeData.FakeTelStore.generator">
+            <summary>
+            Hàm tạo ngẫu nhiên 1 số điện thoại
+            </summary>
+            <returns>
+            Chuỗi 1 số điện thoại có độ dài là 10
+            </returns>
+        </member>
+        <member name="T:FakeData.FakeAddressStore">
+            <summary>
+            Lớp FakeAddressStore dùng để lưu trữ 5 phần tử Quận, mỗi Quận sẽ có 5 phần tử phường và mỗi phường sẽ có 5 phần tử đường tương ứng + thực hiện chức năng tạo ngẫu nhiên một địa chỉ
+            </summary>
+        </member>
+        <member name="M:FakeData.FakeAddressStore.generator">
+            <summary>
+            Hàm in ra màn hình 1 địa chỉ ngẫu nhiên tại TP HCM theo dữ liệu từng Đường, Phường và Quận đã tạo
+            </summary>
+        </member>
+        <member name="T:FakeData.FakeEmailStore">
+            <summary>
+            Lớp FakeEmailStore dùng để lưu trữ 10 phần tử tên miền của email + thực hiện chức năng tạo ngẫu nhiên 1 email với username là tên được tạo ngẫu nhiên ở lớp FakeNameStore
+            </summary>
+        </member>
+        <member name="M:FakeData.FakeEmailStore.generator(System.String)">
+            <summary>
+            Hàm tạo ngẫu nhiên 1 email
+            </summary>
+            <param name="username"></param>
+            <returns>
+            Chuỗi 1 email có dạng username@domain
+            </returns>
+        </member>
+        <member name="T:FakeData.Program">
+            <summary>
+            Lớp thực hiện chạy chương trình FakeData
+            </summary>
+        </member>
+        <member name="M:FakeData.Program.RemoveUnicode(System.String)">
+            <summary>
+            Hàm biến chuỗi Tiếng Việt có dấu thành không dấu
+            </summary>
+            <param name="text"></param>
+            <returns>
+            Chuỗi sau khi chuyển đổi
+            </returns>
+            <example>
+            "Vũ Cao Nguyên" --> "Vu Cao Nguyen"
+            </example>
+        </member>
+        <member name="M:FakeData.Program.Main(System.String[])">
+            <summary>
+            Hàm main()
+            </summary>
+            <param name="args"></param>
+        </member>
+    </members>
+</doc>
